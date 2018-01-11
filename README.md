@@ -20,32 +20,32 @@ me$name ``
 
 `` getpagedata <- getPage (310668279073583, token = myoauth, n = 250)``
 
-`` View(getpagedata)
+`` View(getpagedata)``
 
-unique(getpagedata[['story']])
+``unique(getpagedata[['story']])``
 
-unique(getpagedata[['type']])
+``unique(getpagedata[['type']])``
 
-max(getpagedata[['likes_count']])
+``max(getpagedata[['likes_count']])
 topfblikes <- subset(getpagedata, likes_count > 99)
-View(topfblikes)
+View(topfblikes)``
 
-max(getpagedata[['comments_count']])
+``max(getpagedata[['comments_count']])
 topfbcomments <- subset(getpagedata, comments_count > 10)
-View(topfbcomments)
+View(topfbcomments)``
 
-max(getpagedata[['shares_count']])
+``max(getpagedata[['shares_count']])
 topfbshares <- subset(getpagedata, shares_count > 30)
-View (topfbshares)
+View (topfbshares)``
 
-unique(getpagedata[['story']])
+``unique(getpagedata[['story']])``
 
-unique(getpagedata[['type']]) ``
+``unique(getpagedata[['type']]) ``
 
 ### Next Steps
 Outstanding questions:
-How do I filter for 2017 posts only? (A subset function off of created_time is running into issues with the T00:00:00 text.)
-How can I bucket the posts into certain groups of content to make conclusions about what content performs well?
-How can I add paid post/paid ad data?
-What are the top performing pieces of content by type?
-How do I take this project to the next level?
+* How do I filter for 2017 posts only? (A subset function off of created_time is running into issues with the T00:00:00 text.)
+* How can I bucket the posts into certain groups of content to make conclusions about what content performs well?
+* How can I add paid post/paid ad data?
+* What are the top performing pieces of content by type?
+* How do I take this project to the next level?
