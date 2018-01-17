@@ -7,7 +7,7 @@ library("Rfacebook")
 
 # In order to access data for either your individual Facebook account or data from a public page, a token must be used to access Facebook.  This assumes you have set up your account accordingly on the Facebook Developer page.
 
-myouath <- fbOAuth(app_id='1395144527269024',app_secret='5a0d214a42d350b3cec29de597d82d6b')
+myouath <- fbOAuth(app_id='id',app_secret='id')
 save(myouath, file="myoauth")
 load("myoauth")
 me <- getUsers("me", token = myouath)
