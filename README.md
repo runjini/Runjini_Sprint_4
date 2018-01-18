@@ -15,7 +15,8 @@ Key functions in this exercise include:
 * Parsing timestamp date to be able to group post engagement by posting hour.
 * Plot the average engagement of posts by posting hour.
 
-Final plot outcome
+Final plot outcome:
+
 ![Final ggplot of plot hours with highest engagement][image-file]
 
 [image-file]: https://github.com/runjini/Runjini_Sprint_4/blob/master/Supporting%20Documents/ggplot-highest-engagement-plot-hours.jpg?raw=true "Final ggplot of plot hours with highest engagement"
