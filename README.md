@@ -11,6 +11,11 @@ Additionally, the specific task at hand is to analyze the engagement level of po
 
 Key functions in this exercise include:
 * Installing RFacebook
-* Using a token to log in to RFacebook (ID is available at: https://findmyfbid.com/)
+* Using a token to log in to RFacebook (ID for public Facebook page is available at: https://findmyfbid.com/)
 * Parsing timestamp date to be able to group post engagement by posting hour.
 * Plot the average engagement of posts by posting hour.
+
+Final plot outcome
+![Final ggplot of plot hours with highest engagement][image-file]
+
+[image-file]: https://github.com/runjini/Runjini_Sprint_4/blob/master/Supporting%20Documents/ggplot-highest-engagement-plot-hours.jpg?raw=true "Final ggplot of plot hours with highest engagement"
